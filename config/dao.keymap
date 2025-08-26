@@ -33,7 +33,7 @@
             display-name = "MAIN";
             bindings = <
 &mt LGUI TAB         &kp Q  &kp W  &kp F        &kp P                   &kp B        &kp J          &kp L           &kp U        &kp Y    &kp SEMICOLON  &kp BACKSLASH
-&mt LCTRL CAPSLOCK   &kp A  &kp R  &kp S        &kp T                   &kp G        &kp M          &kp N           &kp F        &kp I    &kp O          &mt RCTRL SQT
+&mt LCTRL CAPSLOCK   &kp A  &kp R  &kp S        &kp T                   &kp G        &kp M          &kp N           &kp E        &kp I    &kp O          &mt RCTRL SQT
 &mt LALT LEFT_SHIFT  &kp Z  &kp X  &kp C        &kp D                   &kp V        &kp K          &kp H           &kp COMMA    &kp DOT  &kp FSLH       &mt RALT RIGHT_SHIFT
                                    &lt RSE TAB  &mt LSHFT LEFT_COMMAND  &lt LWR RET  &lt LWR SPACE  &mt RSHFT BSPC  &lt RSE DEL
             >;
