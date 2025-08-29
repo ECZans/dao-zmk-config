@@ -32,9 +32,9 @@
         default_layer {
             display-name = "MAIN";
             bindings = <
-&mt LEFT_ALT ESC  &kp Q  &kp W  &kp F           &kp P             &kp B      &kp J      &kp L     &kp U         &kp Y    &kp SEMICOLON  &kp BACKSLASH
-&mt LCTRL TAB     &kp A  &kp R  &kp S           &kp T             &kp G      &kp M      &kp N     &kp E         &kp I    &kp O          &mt RCTRL SQT
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C           &kp D             &kp V      &kp K      &kp H     &kp COMMA     &kp DOT  &kp FSLH       &mt RALT RIGHT_SHIFT
+&mt LEFT_ALT ESC  &kp W  &kp L  &kp Y           &kp P             &kp B      &kp Z      &kp F     &kp O         &kp U      &kp SQT     &kp BACKSLASH
+&mt LCTRL TAB     &kp C  &kp R  &kp S           &kp T             &kp G      &kp M      &kp N     &kp E         &kp I      &kp A       &mt RCTRL SEMICOLON
+&kp LEFT_SHIFT    &kp Q  &kp J  &kp V           &kp D             &kp K      &kp X      &kp H     &kp SLASH     &kp COMMA  &kp PERIOD  &mt RALT RIGHT_SHIFT
                                 &lt 3 CAPSLOCK  &kp LEFT_COMMAND  &lt 1 RET  &kp SPACE  &kp BSPC  &lt 2 DELETE
             >;
         };
