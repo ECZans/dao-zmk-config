@@ -42,9 +42,9 @@
         numbers-symbols {
             display-name = "NUM-SYM";
             bindings = <
-&kp LEFT_ALT      &kp N0     &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCL         &kp SLASH      &kp BACKSLASH  &kp TAB        &kp C_VOLUME_UP
-&kp LEFT_CONTROL  &kp PLUS   &kp N4  &kp N5  &kp N6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp GRAVE      &kp BACKSPACE  &kp C_VOLUME_DOWN
-&kp CAPSLOCK      &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS        &kp PERIOD     &kp COMMA      &kp SQT        &kp K_MUTE
+&kp LEFT_ALT      &kp N0     &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCL         &kp SLASH          &kp BACKSLASH  &kp TAB          &kp GRAVE
+&kp LEFT_CONTROL  &kp PLUS   &kp N4  &kp N5  &kp N6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT  &kp SEMICOLON      &kp COLON      &kp EXCLAMATION  &kp TILDE
+&kp CAPSLOCK      &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SQT          &kp DOUBLE_QUOTES  &kp MINUS      &kp UNDERSCORE   &kp K_MUTE
                                      &trans  &trans  &trans                &trans                 &trans           &trans
             >;
         };
