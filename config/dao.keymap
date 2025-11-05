@@ -42,10 +42,10 @@
         numbers-symbols {
             display-name = "NUM-SYM";
             bindings = <
-&kp LEFT_ALT      &kp N0     &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCL         &kp SLASH         &kp BACKSLASH  &kp TAB        &kp C_VOLUME_UP
-&kp LEFT_CONTROL  &kp PLUS   &kp N4  &kp N5  &kp N6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT  &kp SEMICOLON     &kp GRAVE      &kp BACKSPACE  &kp C_VOLUME_DOWN
-&kp CAPSLOCK      &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS        &kp PERIOD        &kp COMMA      &kp SQT        &kp K_MUTE
-                                     &trans  &trans  &kp LEFT_SHIFT        &kp SPACE              &kp RETURN       &kp LEFT_COMMAND
+&kp LEFT_ALT      &kp N0     &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCL         &kp SLASH      &kp BACKSLASH  &kp TAB        &kp C_VOLUME_UP
+&kp LEFT_CONTROL  &kp PLUS   &kp N4  &kp N5  &kp N6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT  &kp SEMICOLON  &kp GRAVE      &kp BACKSPACE  &kp C_VOLUME_DOWN
+&kp CAPSLOCK      &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS        &kp PERIOD     &kp COMMA      &kp SQT        &kp K_MUTE
+                                     &trans  &trans  &trans                &trans                 &trans           &trans
             >;
         };
 
@@ -54,7 +54,7 @@
 &trans  &none  &kp DEL         &kp UP_ARROW      &kp INS     &kp PAGE_UP    &msc SCRL_UP       &msc SCRL_LEFT  &msc SCRL_RIGHT  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP
 &trans  &none  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT   &kp PAGE_DOWN  &msc SCRL_DOWN     &mmv MOVE_LEFT  &mmv MOVE_UP     &mmv MOVE_DOWN        &mmv MOVE_RIGHT       &kp C_VOLUME_DOWN
 &trans  &none  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &none          &kp RIGHT_COMMAND  &none           &none            &none                 &none                 &kp K_MUTE
-                               &trans            &trans      &trans         &mkp LCLK          &trans          &mkp RCLK
+                               &trans            &trans      &trans         &mkp LCLK          &mkp RCLK       &trans
             >;
         };
 
